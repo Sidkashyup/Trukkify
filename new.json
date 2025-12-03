@@ -1,0 +1,151 @@
+{
+  "homepage": {
+    "hero": {
+      "imageAlt": "Freight Truck on Coastal Highway",
+      "subtitle": "Streamline Your Freight Operations with",
+      "title": "Trukkify"
+    },
+    "tagline": {
+      "main": "Smart logistics. Seamless delivery.",
+      "description": "TWI Exchange connects customers who need to ship cargo with trusted truck drivers across India. Manage contracts, track deliveries, and communicate — all in one streamlined logistics app."
+    },
+    "carriers": {
+      "label": "For Carriers",
+      "title": "Coordinate. Deliver. Grow.",
+      "description": "Join TWI Exchange to discover opportunities faster, improve communication quality, and get paid reliably. Stay connected with drivers, track your trips, and grow your logistics business all from your phone.",
+      "cta": "Join Now",
+      "imageAlt": "Exchange Trip Management App"
+    },
+    "customers": {
+      "label": "For Customers",
+      "title": "Post. Match. Monitor.",
+      "description": "Use TWI Exchange to find verified truck drivers, create secure contracts, and monitor your cargo in real time. Whether you're shipping locally or across states, enjoy peace of mind with transparent communication and delivery updates.",
+      "cta": "Join Now",
+      "imageAlt": "Customer Dashboard"
+    },
+    "businessModel": {
+      "alt": "Business Model"
+    },
+    "features": {
+      "title": "Core Advantages",
+      "feature1": {
+        "title": "1. Book Anytime, Anywhere",
+        "content": "Post shipments on the go, from any device. Get matched with verified drivers - no delays, no limits."
+      },
+      "feature2": {
+        "title": "2. Bidding & Price Negotiation",
+        "content": "Negotiate fair rates in real time — no middlemen, no delays."
+      },
+      "feature3": {
+        "title": "3. 24/7 Customer Support",
+        "content": "Get help whenever you need it. Our team is always online to resolve issues, fast and reliably."
+      },
+      "feature4": {
+        "title": "4. Smart Analytics & Reports",
+        "content": "View delivery times, performance, and trends. Make better decisions with real-time insights."
+      },
+      "feature5": {
+        "title": "5. Digital Contract Management",
+        "content": "Create and manage contracts with ease. Keep all agreements secure, organized, and accessible."
+      },
+      "feature6": {
+        "title": "6. Intuitive Interface",
+        "content": "Navigate with ease using a clean interface. Access shipments, contracts, and tasks instantly."
+      }
+    },
+    "howItWorks": {
+      "title": "How Truckyyy Works",
+      "step1": "Set up your profile and start managing shipments right away",
+      "step2": "Organize all your logistics data in a single dashboard",
+      "step3": "Track every movement and communicate directly within the app"
+    },
+    "download": {
+      "title": "Download Truckyyy Now",
+      "description": "Manage your shipments, contracts, and fleet operations on the go. Get the power of logistics in your pocket available on Android and iOS.",
+      "androidAlt": "Android app store logo",
+      "iosAlt": "iOS app store logo",
+      "downloadNow": "Download Now",
+      "comingSoon": "Coming Soon"
+    }
+  },
+  "about": {
+    "header": {
+      "title": "About Transport Wings (Cal) Pvt. Ltd",
+      "description": "Transport Wings (Cal) Pvt. Ltd. has been a market leader in logistics. Moving cargo across India within various states has its own unforeseen challenges. Over 66 years of intensive, accurate, efficient, innovative, and dedicated operations have earned TWI a prestigious reputation in the domestic inland transportation industry. Our extensive network covers not only over 100 locations spread all over India"
+    },
+    "leadership": {
+      "title": "Our Leadership",
+      "subtitle": "One Vision One Team",
+      "description": "We are a team of more than 46,000+ people across the globe working for a common purpose. We are led by one of India's most visionary Chairman who is supported by a talented and experienced management team."
+    },
+    "industries": {
+      "title": "Industries We Serve",
+      "agri": {
+        "title": "Agriculture & Agri-Supply:",
+        "content": "Agri-input companies and bulk commodity traders use the platform to dispatch seasonal loads efficiently, ensuring timely delivery to mandis, warehouses, and processing units."
+      },
+      "coldChain": {
+        "title": "Cold Chain & Perishables:",
+        "content": "Food processors, pharma distributors, and dairy cooperatives rely on temperature-aware transport and live tracking to maintain cargo integrity across long hauls."
+      },
+      "manufacturing": {
+        "title": "Manufacturing & Industrial:",
+        "content": "Factories and industrial suppliers post inbound and outbound loads, match with compliant carriers, and automate documentation to reduce delays and manual overhead."
+      },
+      "chemicals": {
+        "title": "Chemicals & Regulated Goods:",
+        "content": "Chemical manufacturers and fuel suppliers use the platform to ensure safe, compliant transport of regulated materials with route visibility and secure documentation."
+      }
+    },
+    "values": {
+      "title": "Core values",
+      "integrity": {
+        "title": "Integrity:",
+        "content": "We uphold the highest ethical standards in all our dealings, fostering trust and transparency with clients and partners."
+      },
+      "excellence": {
+        "title": "Excellence:",
+        "content": "We strive for excellence in every aspect of our services, continually improving to meet and exceed customer expectations."
+      },
+      "innovation": {
+        "title": "Innovation:",
+        "content": "We embrace innovative solutions and technologies to enhance our logistics processes and provide cutting-edge services."
+      },
+      "customerFocus": {
+        "title": "Customer Focus:",
+        "content": "Our clients are at the heart of everything we do, and we are dedicated to understanding and fulfilling their unique logistics needs."
+      },
+      "collaboration": {
+        "title": "Collaboration:",
+        "content": "We believe in the power of teamwork and partnerships, working closely with clients and stakeholders to achieve shared success."
+      }
+    }
+  },
+  "contact": {
+    "header": {
+      "title": "Get in Touch with Us",
+      "description": "Have questions or need assistance? Our team is here to help you streamline your logistics operations. Reach out anytime!"
+    },
+    "form": {
+      "name": "Name*",
+      "company": "Company Name",
+      "email": "Email*",
+      "phone": "Phone",
+      "message": "Message*",
+      "send": "Send"
+    },
+    "office": {
+      "title": "Corporate Office",
+      "address": "609, Tower II, Pearls Omaxe, Netaji Subash Place, Pitampura, New Delhi - 110034, Delhi, INDIA."
+    },
+    "info": {
+      "title": "Contact Us",
+      "email1": "cse@ustl.in",
+      ,
+      "phone": "+91-9661829944"
+    },
+    "social": {
+      "follow": "Follow us on"
+    }
+  }
+}

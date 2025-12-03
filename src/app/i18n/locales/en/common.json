@@ -1,0 +1,273 @@
+{
+	"nav": {
+		"home": "Home",
+		"about": "About Us",
+		"contact": "Contact Us",
+		"buttonContact": "Contact Us",
+		"brand": "Trukkify"
+	},
+	"footer": {
+		"brand": "Transport Wings India",
+		"about": "About Us",
+		"services": "Services",
+		"contact": "Contact",
+		"address": "609, 610, 1110 Pearls Omaxe Tower-2,\nNetaji Subhash Place, Pitampura,\nDelhi - 110034",
+		"hours": "Mon - Sat: 9:00 - 18:00"
+	},
+	"homepage": {
+		"hero": {
+			"imageAlt": "Freight Truck on Coastal Highway",
+			"subtitle": "Streamline Your Freight Operations with",
+			"title": "Trukkify"
+		},
+		"tagline": {
+			"main": "Smart logistics. Seamless delivery.",
+			"description": "TWI Exchange connects customers who need to ship cargo with trusted truck drivers across India. Manage contracts, track deliveries, and communicate — all in one streamlined logistics app."
+		},
+		"carriers": {
+			"label": "For Carriers",
+			"title": "Coordinate. Deliver. Grow.",
+			"description": "Join TWI Exchange to discover opportunities faster, improve communication quality, and get paid reliably. Stay connected with drivers, track your trips, and grow your logistics business all from your phone.",
+			"cta": "Join Now",
+			"imageAlt": "Exchange Trip Management App"
+		},
+		"customers": {
+			"label": "For Customers",
+			"title": "Post. Match. Monitor.",
+			"description": "Use TWI Exchange to find verified truck drivers, create secure contracts, and monitor your cargo in real time. Whether you're shipping locally or across states, enjoy peace of mind with transparent communication and delivery updates.",
+			"cta": "Join Now",
+			"imageAlt": "Customer Dashboard"
+		},
+		"businessModel": {
+			"alt": "Business Model"
+		},
+		"features": {
+			"title": "Core Advantages",
+			"feature1": {
+				"title": "1. Book Anytime, Anywhere",
+				"content": "Post shipments on the go, from any device. Get matched with verified drivers - no delays, no limits."
+			},
+			"feature2": {
+				"title": "2. Bidding & Price Negotiation",
+				"content": "Negotiate fair rates in real time — no middlemen, no delays."
+			},
+			"feature3": {
+				"title": "3. 24/7 Customer Support",
+				"content": "Get help whenever you need it. Our team is always online to resolve issues, fast and reliably."
+			},
+			"feature4": {
+				"title": "4. Smart Analytics & Reports",
+				"content": "View delivery times, performance, and trends. Make better decisions with real-time insights."
+			},
+			"feature5": {
+				"title": "5. Digital Contract Management",
+				"content": "Create and manage contracts with ease. Keep all agreements secure, organized, and accessible."
+			},
+			"feature6": {
+				"title": "6. Intuitive Interface",
+				"content": "Navigate with ease using a clean interface. Access shipments, contracts, and tasks instantly."
+			}
+		},
+		"howItWorks": {
+			"title": "How Truckyyy Works",
+			"step1": "Set up your profile and start managing shipments right away",
+			"step2": "Organize all your logistics data in a single dashboard",
+			"step3": "Track every movement and communicate directly within the app"
+		},
+		"download": {
+			"title": "Download Truckyyy Now",
+			"description": "Manage your shipments, contracts, and fleet operations on the go. Get the power of logistics in your pocket available on Android and iOS.",
+			"androidAlt": "Android app store logo",
+			"iosAlt": "iOS app store logo",
+			"downloadNow": "Download Now",
+			"comingSoon": "Coming Soon"
+		}
+	},
+	"about": {
+		"header": {
+			"title": "About Transport Wings (Cal) Pvt. Ltd",
+			"description": "Transport Wings (Cal) Pvt. Ltd. has been a market leader in logistics. Moving cargo across India within various states has its own unforeseen challenges. Over 66 years of intensive, accurate, efficient, innovative, and dedicated operations have earned TWI a prestigious reputation in the domestic inland transportation industry. Our extensive network covers not only over 100 locations spread all over India"
+		},
+		"leadership": {
+			"title": "Our Leadership",
+			"subtitle": "One Vision One Team",
+			"description": "We are a team of more than 46,000+ people across the globe working for a common purpose. We are led by one of India's most visionary Chairman who is supported by a talented and experienced management team.",
+			"viewMore": "View More",
+			"collapse": "Collapse",
+			"ceo": {
+				"name": "Mr. Purushottam P Singhal",
+				"title": "Chief Executive Officer",
+				"description": "CEO of the Company is well equipped with Experience shared by his Father Late Shri P.C.Singhal blog with high Qualified ( B.Com Hons, MBA - Logistics ) and working Since 1990 in the Organisation and has achieved several milestones in the last 26 years and completed various Job in PAN India in a most satisfactory manner under his Leadership. He is also Social Activist and has a good social reputation. He is a Trustee of “Sri Agarsen International Hospital “and part of various other Social Services to Society & possesses good expertise in handling & movement of critical & supercritical Jobs too."
+			},
+			"md": {
+				"name": "Dr. Uttam Singhal",
+				"title": "Managing Director",
+				"description": "Managing Director of the Company, B.Com (H) & MBA (Fin) had been actively leading all the Activities & managing well through his screwed knowledge, well experienced, high qualified & joined Organisation in 2004 and had achieved various Landmarked Achievement in recognized as best service providers with new Outlook & Modern approach & solutions. He is well connected through Political links & has a great span of vendor base all over India. He is a Person of Vision & enthusiasm & promised to deliver what he commits always & this is his best quality."
+			}
+		},
+		"industries": {
+			"title": "Industries We Serve",
+			"agri": {
+				"title": "Agriculture & Agri-Supply:",
+				"content": "Agri-input companies and bulk commodity traders use the platform to dispatch seasonal loads efficiently, ensuring timely delivery to mandis, warehouses, and processing units."
+			},
+			"coldChain": {
+				"title": "Cold Chain & Perishables:",
+				"content": "Food processors, pharma distributors, and dairy cooperatives rely on temperature-aware transport and live tracking to maintain cargo integrity across long hauls."
+			},
+			"manufacturing": {
+				"title": "Manufacturing & Industrial:",
+				"content": "Factories and industrial suppliers post inbound and outbound loads, match with compliant carriers, and automate documentation to reduce delays and manual overhead."
+			},
+			"chemicals": {
+				"title": "Chemicals & Regulated Goods:",
+				"content": "Chemical manufacturers and fuel suppliers use the platform to ensure safe, compliant transport of regulated materials with route visibility and secure documentation."
+			}
+		},
+		"values": {
+			"title": "Core values",
+			"integrity": {
+				"title": "Integrity:",
+				"content": "We uphold the highest ethical standards in all our dealings, fostering trust and transparency with clients and partners."
+			},
+			"excellence": {
+				"title": "Excellence:",
+				"content": "We strive for excellence in every aspect of our services, continually improving to meet and exceed customer expectations."
+			},
+			"innovation": {
+				"title": "Innovation:",
+				"content": "We embrace innovative solutions and technologies to enhance our logistics processes and provide cutting-edge services."
+			},
+			"customerFocus": {
+				"title": "Customer Focus:",
+				"content": "Our clients are at the heart of everything we do, and we are dedicated to understanding and fulfilling their unique logistics needs."
+			},
+			"collaboration": {
+				"title": "Collaboration:",
+				"content": "We believe in the power of teamwork and partnerships, working closely with clients and stakeholders to achieve shared success."
+			}
+		}
+	},
+	"contact": {
+		"header": {
+			"title": "Get in Touch with Us",
+			"description": "Have questions or need assistance? Our team is here to help you streamline your logistics operations. Reach out anytime!"
+		},
+		"form": {
+			"name": "Name*",
+			"company": "Company Name",
+			"email": "Email*",
+			"phone": "Phone",
+			"message": "Message*",
+			"send": "Send"
+		},
+		"office": {
+			"title": "Corporate Office",
+			"address": "609, Tower II, Pearls Omaxe, Netaji Subash Place, Pitampura, New Delhi - 110034, Delhi, INDIA."
+		},
+		"info": {
+			"title": "Contact Us",
+			"email1": "cse@ustl.in",
+			"phone": "+91-9661829944"
+		},
+		"social": {
+			"follow": "Follow us on"
+		}
+	},
+	"driver": {
+		"hero": {
+			"title": "Built for Drivers Who Move India",
+			"description": "From trip planning to payments, every feature is designed to simplify your day and grow your earnings."
+		},
+		"steps": {
+			"step1": {
+				"title": "1. Login & Ready to Roll",
+				"point1": "Log in seamlessly using just your phone number and OTP validation.",
+				"point2": "Immediately access your dashboard to view critical stats like 'Active Trip', 'Earnings', and your current 'Rating'.",
+				"point3": "Use the 'Swipe right to start your journey' gesture to go online and signal you are ready for trips."
+			},
+			"step2": {
+				"title": "2. Build Your Profile, Build Trust",
+				"point1": "Verify your identity quickly by uploading your Driver’s License (DL) and Aadhar Card.",
+				"point2": "For vehicle owners, use the 'My Vehicle Fleet' section to register vehicles with RC, Permit, and Insurance certificates.",
+				"point3": "Complete your profile details to build trust and ensure you are matched with the correct cargo types."
+			},
+			"step3": {
+				"title": "3. New Trips, Fresh Opportunities",
+				"point1": "Receive real-time notifications for 'Available Trips' that specifically match your vehicle configuration.",
+				"point2": "Review detailed cargo specifics like 'Goods Type' (e.g., Electronics, Perishable), weight, and distance before accepting.",
+				"point3": "Check the ETA and Shipping Route preview in the trip listing to ensure the schedule fits your availability."
+			},
+			"step4": {
+				"title": "4. Negotiate & Secure the Deal",
+				"point1": "Don't settle for the first offer; submit your Counter Price or set a 'Final No Regret Price' to auto-negotiate.",
+				"point2": "Track the full negotiation history, including the customer's Initial Offer and any Revised Prices.",
+				"point3": "Once a bid is accepted, use your wallet balance to 'Pay to Start' (pay the booking fee) and officially secure the load."
+			},
+			"step5": {
+				"title": "5. Execution & Operations",
+				"point1": "Use the 'Secure Call' feature to contact the customer while keeping both phone numbers masked for privacy.",
+				"point2": "Navigate to the pickup location using the Trip Overview; the app tracks your distance to the loading point.",
+				"point3": "The 'Generate GR' (Goods Receipt) button is geo-locked and will only unlock once you physically reach the loading location."
+			},
+			"step6": {
+				"title": "6. Your Earnings, In Your Pocket",
+				"point1": "Track every rupee in your Wallet history, with clear records of 'Credited' earnings and 'Debited' fees.",
+				"point2": "Earn reward points for completed trips (e.g., 4 trips = 1 ticket) which can be redeemed for cash or vouchers like Flipkart.",
+				"point3": "Manage your liquidity instantly using the 'Withdraw' feature for bank transfers or 'Add Money' for trip fees."
+			},
+			"step7": {
+				"title": "7. Digital Documents Locker",
+				"point1": "Securely store digital copies of your RC, PUC, Fitness, and Permit certificates directly in the app.",
+				"point2": "Generate the digital Goods Receipt (GR) immediately upon loading the cargo.",
+				"point3": "Use the 'Share' feature to instantly send verified documents to shippers or authorities without physical paperwork."
+			},
+			"navigation": {
+				"previous": "Previous",
+				"next": "Next"
+			}
+		}
+	},
+	"customer": {
+		"hero": {
+			"title": "Built for Businesses That Ship with Confidence",
+			"description": "From posting loads to tracking deliveries, every feature is designed to give you control, transparency, and peace of mind."
+		},
+		"steps": {
+			"step1": {
+				"title": "1. Create Profile & Start Shipping",
+				"point1": "Onboard your business by verifying your GSTIN, PAN, and Company Name to ensure tax compliance.",
+				"point2": "Verify the authorized person's identity securely using their Aadhar Number.",
+				"point3": "Use the 'Add Representative' feature to allow multiple team members to manage shipments under one main account."
+			},
+			"step2": {
+				"title": "2. Your Profile, Your Control",
+				"point1": "Manage your business presence by keeping contact info and website details up to date.",
+				"point2": "Ensure your profile is verified to encourage high-rated vehicle owners to bid on your requests.",
+				"point3": "Control account security with secure logout options and session management."
+			},
+			"step3": {
+				"title": "3. Smart Cargo Configuration",
+				"point1": "Enter Source and Destination pincodes to receive accurate route planning and vehicle matching.",
+				"point2": "Input cargo details; the app automatically flags shipments as ODC (Over Dimensional) or OWC (Over Weight) if they exceed limits.",
+				"point3": "Choose to 'Start Bidding' to invite competitive offers from drivers rather than sticking to a fixed price."
+			},
+			"step4": {
+				"title": "4. Keep Every Trip on Track",
+				"point1": "Monitor shipments with real-time status updates like 'In Progress', 'Completed', or 'Canceled'.",
+				"point2": "Track the driver's live distance to the loading point to manage your supply chain timing.",
+				"point3": "Receive immediate confirmation when the driver reaches the location and generates the digital Goods Receipt (GR)."
+			},
+			"step5": {
+				"title": "5. Wallet & Secure Payments",
+				"point1": "Process payments securely via the integrated payment gateway.",
+				"point2": "Use 'Add Money' to top up your wallet for bidding fees and view detailed transaction histories.",
+				"point3": "Earn rewards or discounts (e.g., 10% OFF on your next ride) for frequent shipping activities."
+			},
+			"navigation": {
+				"previous": "Previous",
+				"next": "Next"
+			}
+		}
+	}
+}
