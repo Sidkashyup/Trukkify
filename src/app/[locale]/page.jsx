@@ -44,7 +44,7 @@ export default async function Page({ params }) {
 			</div> */}
 			
 			{/* temporary */}
-			<div className="relative w-full h-[400px] lg:h-[1000px] overflow-hidden mt-[72px]">
+			<div className="relative w-full h-[400px] lg:h-[900px] overflow-hidden mt-[72px]">
 				{/* Background Video */}
 				<video
 					className="absolute top-0 left-0 w-full h-full object-cover"
@@ -52,14 +52,14 @@ export default async function Page({ params }) {
 					loop
 					muted
 					playsInline
-					src="/hero-video.mp4" // Optional: Good fallback if video loads slowly
+					src="https://res.cloudinary.com/dnba1nph2/video/upload/v1764764414/hero-video_phjdq2.mp4" // Optional: Good fallback if video loads slowly
 				>
 					<source src="/hero-video.mp4" type="video/mp4" />
 					Your browser does not support the video tag.
 				</video>
 
 				{/* Overlay Text */}
-				<div className="absolute top-8 lg:top-20 left-0 w-full px-6 py-4 bg-white/40 lg:bg-white/70 backdrop-blur-sm text-center z-10">
+				<div className="absolute top-8 lg:top-32 left-0 w-full px-6 py-4 bg-white/40 lg:bg-white/70 backdrop-blur-sm text-center z-10">
 					<h2 className="text-xl lg:text-3xl text-gray-800">
 						{t('homepage.hero.subtitle')}
 					</h2>
@@ -96,7 +96,7 @@ export default async function Page({ params }) {
 					<div className="flex flex-col lg:order-1 justify-center lg:items-start items-center flex-1 relative">
 						<div>
 							<p
-								className={`${trispace.className} text-gray-500 font-semibold mb-1 text-lg`}
+								className={`${trispace.className} text-center lg:text-left text-gray-500 font-semibold mb-1 text-lg`}
 							>
 								{t('homepage.carriers.label')}
 							</p>
@@ -130,7 +130,7 @@ export default async function Page({ params }) {
 					<div className="flex flex-col justify-center lg:items-end items-center flex-1">
 						<div>
 							<p
-								className={`${trispace.className} text-gray-500 font-semibold text-right mr-2 mb-1 text-lg`}
+								className={`${trispace.className} text-gray-500 font-semibold text-center lg:text-right mr-2 mb-1 text-lg`}
 							>
 								{t('homepage.customers.label')}
 							</p>

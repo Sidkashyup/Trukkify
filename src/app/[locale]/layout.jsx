@@ -12,11 +12,16 @@ export async function generateMetadata({ params }) {
 	const { locale } = await params;
 
 	return {
+		icons: {
+			icon: '/icon.png',
+		},
 		title: 'Trukkify: Smart Logistics for India',
 		description:
 			'TWI Exchange connects customers who need to ship cargo with trusted truck drivers across India. Manage contracts, track deliveries, and communicate — all in one streamlined logistics app.',
 	};
 }
+
+// export const metadata = {};
 
 export default async function RootLayout({ children, params }) {
 	const { locale } = await params;
