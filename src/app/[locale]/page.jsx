@@ -110,7 +110,7 @@ export default async function Page({ params }) {
 							{t('homepage.carriers.description')}
 						</p>
 						<Link href={`/${locale}/demo-driver`}>
-							<button className="flex gap-2 items-center bg-blue-600 text-white px-6 py-3 rounded-md text-xl font-semibold hover:cursor-pointer hover:scale-105 transition-all  w-fit hover:bg-blue-700">
+							<button className="flex gap-2 items-center bg-blue-600 text-white px-6 py-3 rounded-md text-xl font-semibold hover:cursor-pointer hover:scale-102 transition-all  w-fit hover:bg-blue-700">
 								{t('homepage.carriers.cta')} <ArrowUpRight size={28} />
 							</button>
 						</Link>
@@ -144,7 +144,7 @@ export default async function Page({ params }) {
 							{t('homepage.customers.description')}
 						</p>
 						<Link href={`/${locale}/demo-customer`}>
-							<button className="flex gap-2 items-center bg-blue-600 text-white px-6 py-3 rounded-md text-xl font-semibold hover:cursor-pointer transition-all w-fit hover:bg-blue-700">
+							<button className="flex gap-2 items-center bg-blue-600 text-white px-6 py-3 rounded-md text-xl font-semibold hover:cursor-pointer hover:scale-102 transition-all w-fit hover:bg-blue-700">
 								{t('homepage.customers.cta')} <ArrowUpRight size={28} />
 							</button>
 						</Link>

@@ -2,6 +2,7 @@ import CustomerSteps from '@/components/CustomerAppSteps';
 import { Trispace } from 'next/font/google';
 import { useTranslation } from '../../i18n';
 import Image from 'next/image';
+import CustomerStepCard from '@/components/CustomerAppSteps';
 
 const trispace = Trispace({
 	display: 'swap',
@@ -20,7 +21,7 @@ export default async function CustomerDemo({ params }) {
 				>
 					{t('customer.hero.title')}
 				</h1>
-				<p className="text-center text-2xl max-w-2/4">
+				<p className="text-center text-xl lg:text-2xl lg:max-w-2/4">
 					{t('customer.hero.description')}
 				</p>
 			</div>
@@ -30,174 +31,59 @@ export default async function CustomerDemo({ params }) {
 			{/* new section */}
 			{/* new section */}
 			{/* 1 */}
-			<div className="w-[1000px] flex mx-auto m-16 box-content p-8 border-gray-200 shadow-lg border-2 rounded-4xl bg-white">
-				<div className="flex w-full gap-8 items-center h-[600px]">
-					{/* LEFT: IMAGE STACK */}
-					<div className="flex-1 w-1/2 relative h-full bg-gray-100 rounded-2xl overflow-hidden">
-						{/* <div className="inset-0"> */}
-						<Image
-							src="/customer_steps/login.png"
-							alt={t('homepage.customer.steps.step1.title')}
-							fill
-							className="object-cover"
-						/>
-						{/* </div> */}
-					</div>
-					{/* RIGHT: TEXT CONTENT */}
-					<div className="flex-1 flex flex-col justify-center space-y-6">
-						<h2 className="text-3xl font-bold text-gray-800">
-							{t('customer.steps.step1.title')}
-						</h2>
-						<ul className='space-y-4'>
-							<li className="text-lg text-gray-700 leading-relaxed font-medium">
-								{t('customer.steps.step1.point1')}
-							</li>
-							<li className="text-lg text-gray-700 leading-relaxed font-medium">
-								{t('customer.steps.step1.point2')}
-							</li>
-							<li className="text-lg text-gray-700 leading-relaxed font-medium">
-								{t('customer.steps.step1.point3')}
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
+			
 
-			{/* 2 */}
-			<div className="w-[1000px] flex mx-auto m-16 box-content p-8 border-gray-200 shadow-lg border-2 rounded-4xl bg-white">
-				<div className="flex w-full gap-8 items-center h-[600px]">
-					{/* LEFT: IMAGE STACK */}
-					<div className="flex-1 w-1/2 order-2 relative h-full bg-gray-100 rounded-2xl overflow-hidden">
-						{/* <div className="inset-0"> */}
-						<Image
-							src="/customer_steps/profile.png"
-							alt={t('homepage.customer.steps.step1.title')}
-							fill
-							className="object-cover"
+			<CustomerStepCard
+							image="/customer_steps/login.png"
+							title={t('customer.steps.step1.title')}
+							points={[
+								t('customer.steps.step1.point1'),
+								t('customer.steps.step1.point2'),
+								t('customer.steps.step1.point3'),
+							]}
 						/>
-						{/* </div> */}
-					</div>
-					{/* RIGHT: TEXT CONTENT */}
-					<div className="flex-1 order-1 flex flex-col justify-center space-y-6">
-						<h2 className="text-3xl font-bold text-gray-800">
-							{t('customer.steps.step2.title')}
-						</h2>
-						<ul className='space-y-4'>
-							<li className="text-lg text-gray-600 leading-relaxed font-medium">
-								{t('customer.steps.step2.point1')}
-							</li>
-							<li className="text-lg text-gray-600 leading-relaxed font-medium">
-								{t('customer.steps.step2.point2')}
-							</li>
-							<li className="text-lg text-gray-600 leading-relaxed font-medium">
-								{t('customer.steps.step2.point3')}
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-
-			{/* 3 */}
-			<div className="w-[1000px] flex mx-auto m-16 box-content p-8 border-gray-200 shadow-lg border-2 rounded-4xl bg-white">
-				<div className="flex w-full gap-8 items-center h-[600px]">
-					{/* LEFT: IMAGE STACK */}
-					<div className="flex-1 w-1/2 relative h-full bg-gray-100 rounded-2xl overflow-hidden">
-						{/* <div className="inset-0"> */}
-						<Image
-							src="/customer_steps/negotiation.png"
-							alt={t('homepage.customer.steps.step1.title')}
-							fill
-							className="object-cover"
+			
+						<CustomerStepCard
+							image="/customer_steps/profile.png"
+							title={t('customer.steps.step2.title')}
+							points={[
+								t('customer.steps.step2.point1'),
+								t('customer.steps.step2.point2'),
+								t('customer.steps.step2.point3'),
+							]}
+							reverse
 						/>
-						{/* </div> */}
-					</div>
-					{/* RIGHT: TEXT CONTENT */}
-					<div className="flex-1 flex flex-col justify-center space-y-6">
-						<h2 className="text-3xl font-bold text-gray-800">
-							{t('customer.steps.step3.title')}
-						</h2>
-						<ul className='space-y-4'>
-							<li className="text-lg text-gray-600 leading-relaxed font-medium">
-								{t('customer.steps.step3.point1')}
-							</li>
-							<li className="text-lg text-gray-600 leading-relaxed font-medium">
-								{t('customer.steps.step3.point2')}
-							</li>
-							<li className="text-lg text-gray-600 leading-relaxed font-medium">
-								{t('customer.steps.step3.point3')}
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-
-			{/* 4 */}
-			<div className="w-[1000px] flex mx-auto m-16 box-content p-8 border-gray-200 shadow-lg border-2 rounded-4xl bg-white">
-				<div className="flex w-full gap-8 items-center h-[600px]">
-					{/* LEFT: IMAGE STACK */}
-					<div className="flex-1 w-1/2 order-2 relative h-full bg-gray-100 rounded-2xl overflow-hidden">
-						{/* <div className="inset-0"> */}
-						<Image
-							src="/customer_steps/ongoing.png"
-							alt={t('homepage.customer.steps.step1.title')}
-							fill
-							className="object-cover"
+			
+						<CustomerStepCard
+							image="/customer_steps/negotiation.png"
+							title={t('customer.steps.step3.title')}
+							points={[
+								t('customer.steps.step3.point1'),
+								t('customer.steps.step3.point2'),
+								t('customer.steps.step3.point3'),
+							]}
 						/>
-						{/* </div> */}
-					</div>
-					{/* RIGHT: TEXT CONTENT */}
-					<div className="flex-1 order-1 flex flex-col justify-center space-y-6">
-						<h2 className="text-3xl font-bold text-gray-800">
-							{t('customer.steps.step4.title')}
-						</h2>
-						<ul className='space-y-4'>
-							<li className="text-lg text-gray-600 leading-relaxed font-medium">
-								{t('customer.steps.step4.point1')}
-							</li>
-							<li className="text-lg text-gray-600 leading-relaxed font-medium">
-								{t('customer.steps.step4.point2')}
-							</li>
-							<li className="text-lg text-gray-600 leading-relaxed font-medium">
-								{t('customer.steps.step4.point3')}
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-
-			{/* 5 */}
-			<div className="w-[1000px] flex mx-auto m-16 box-content p-8 border-gray-200 shadow-lg border-2 rounded-4xl bg-white">
-				<div className="flex w-full gap-8 items-center h-[600px]">
-					{/* LEFT: IMAGE STACK */}
-					<div className="flex-1 w-1/2 relative rounded-2xl h-full bg-gray-100 overflow-hidden">
-						{/* <div className="inset-0"> */}
-						<Image
-							src="/customer_steps/wallet.png"
-							alt={t('homepage.customer.steps.step1.title')}
-							fill
-							className="object-cover"
+			
+						<CustomerStepCard
+							image="/customer_steps/ongoing.png"
+							title={t('customer.steps.step4.title')}
+							points={[
+								t('customer.steps.step4.point1'),
+								t('customer.steps.step4.point2'),
+								t('customer.steps.step4.point3'),
+							]}
+							reverse
 						/>
-						{/* </div> */}
-					</div>
-					{/* RIGHT: TEXT CONTENT */}
-					<div className="flex-1 flex flex-col justify-center space-y-6">
-						<h2 className="text-3xl font-bold text-gray-800">
-							{t('customer.steps.step5.title')}
-						</h2>
-						<ul className='space-y-4'>
-							<li className="text-lg text-gray-600 leading-relaxed font-medium">
-								{t('customer.steps.step5.point1')}
-							</li>
-							<li className="text-lg text-gray-600 leading-relaxed font-medium">
-								{t('customer.steps.step1.point2')}
-							</li>
-							<li className="text-lg text-gray-600 leading-relaxed font-medium">
-								{t('customer.steps.step1.point3')}
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
+			
+						<CustomerStepCard
+							image="/customer_steps/wallet.png"
+							title={t('customer.steps.step5.title')}
+							points={[
+								t('customer.steps.step5.point1'),
+								t('customer.steps.step5.point2'),
+								t('customer.steps.step5.point3'),
+							]}
+						/>
 		</div>
 	);
 }

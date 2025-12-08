@@ -29,7 +29,7 @@ export default async function RootLayout({ children, params }) {
 	return (
 		<html lang={locale}>
 			<body suppressHydrationWarning>
-				<Navbar locale={locale} />
+				<Navbar locale={locale} />																			
 				<LanguageSwitcher locale={locale} />
 				{children}
 				<Footer locale={locale} />

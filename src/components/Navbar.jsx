@@ -60,7 +60,7 @@ const Navbar = ({ locale = 'en' }) => {
 							<div className="text-xl">{t('nav.about')}</div>
 						</Link>
 						<Link href={`/${locale}/contact`}>
-							<button className="bg-blue-600 py-2 tracking-wide text-xl font-semibold text-white px-4 rounded-md">
+							<button className="bg-blue-600 py-2 tracking-wide text-xl font-semibold text-white px-4 rounded-md transition-all duration-300 hover:scale-105 hover:bg-blue-700 hover:cursor-pointer">
 								{t('nav.buttonContact')}
 							</button>
 						</Link>
